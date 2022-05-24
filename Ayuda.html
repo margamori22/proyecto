@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las cositas de Mar</title>
+    <link rel="stylesheet" type="text/css" href="LasCositasDeMar.css" />
+    <link rel="icon" type="image/x-icon" href="Imágenes/favicon.png">
+</head>
+<body>
+  <img src="Imágenes/momentos.PNG" width="1250" alt="Cabecera"> 
+    <ul>
+      <li><a href="index.html">Home</a></li>
+        <li><a href="SobreMí.html">Sobre mí</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="MisRedes.html">Mis redes</a></li>
+        <li><a href="Ayuda.html">Ayuda</a></li>
+      </ul>
+      
+      <br/>
+      <form action="Form" method="post">
+      <fieldset>
+        <legend><b><mark style="background-color:rgb(160, 160, 160);">Envía tus dudas o sugerencias</mark></b></legend>
+        <b>Nombre:</b>
+        <input type="text" name="nombre" value="" required/>
+          <b>Apellidos:</b>
+          <input type="text" name="apellidos" value="" required/>
+          <b>Sexo:</b>
+          <input type="radio" name="sexo" value="mujer" /> <b>M</b>
+          <input type="radio" name="sexo" value="hombre" /> <b>H</b>
+          <input type="radio" name="sexo" value="otro" /> <b>Otro</b>
+        <br/>
+        <br/>
+          <b>Fecha de nacimiento:</b>
+          <input type="text" size="3" maxlength="2" id="fecha_dia" name="fecha_dia" />
+          de
+          <select id="fecha_mes" name="fecha_mes">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+          </select>
+          de
+          <input type="text" size="5" maxlength="4" id="fecha_ano" name="fecha_ano" />
+          <br/>
+          <br/>
+          <br/>
+    <b>Escribe aquí tu duda o sugerencia:</b>
+    <br/>
+    <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+    <br/><br/>
+    <b>Tu email:</b>
+            <br/>
+            <input type="email" id="email" size="30" placeholder="ejemplo@gmail.com" required>
+            <br/><br/>
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="Restablecer"/>
+      
+      <br/> <br/>
+      <b>Pulsa el botón de "enviar" para terminar o el botón de "restablecer" para limpiar el formulario.</b>
+      <br/><br/><br/><br/>
+    </fieldset>
+  </form>
+      <div id="pagina">
+          <div id="pie">Política de privacidad || Términos de uso || 2022 &copy; Las cositas de Mar</div>
+        </div>
+
+</body>
+</html>
