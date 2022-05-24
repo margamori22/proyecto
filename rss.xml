@@ -1,0 +1,21 @@
+<rss version="2.0">
+    <channel>
+    <title>Página RSS</title>
+    <link>https://margamori22.github.io/proyecto/</link>
+    <description>Blog sobre manualidades</description>
+    <language>es</language>
+
+    <image>
+        <title>CABECERA</title>
+        <link>https://margamori22.github.io/proyecto/index.html</link>
+        <url>https://github.com/margamori22/proyecto/blob/main/Im%C3%A1genes/momentosd.PNG</url>
+    </image>
+
+    <item>
+    <title>PRODUCTOS</title>
+    <link>https://margamori22.github.io/proyecto/Productos.html</link>
+    <description>Échale un vistazo a las manualidades que tengo subidas</description>
+    <category>productos</category>
+    </item>
+</channel>
+</rss>
